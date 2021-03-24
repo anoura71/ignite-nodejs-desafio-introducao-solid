@@ -4,6 +4,7 @@ import { User } from "modules/users/model/User";
 import { ShowUserProfileUseCase } from "./ShowUserProfileUseCase";
 
 class ShowUserProfileController {
+  // eslint-disable-next-line prettier/prettier
   constructor(private showUserProfileUseCase: ShowUserProfileUseCase) { }
 
   handle(request: Request, response: Response): Response {

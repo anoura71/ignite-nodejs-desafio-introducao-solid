@@ -6,6 +6,7 @@ interface IRequest {
 }
 
 class ListAllUsersUseCase {
+  // eslint-disable-next-line prettier/prettier
   constructor(private usersRepository: IUsersRepository) { }
 
   execute({ user_id }: IRequest): User[] {

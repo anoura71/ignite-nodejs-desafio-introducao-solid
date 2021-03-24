@@ -4,6 +4,7 @@ import { User } from "modules/users/model/User";
 import { CreateUserUseCase } from "./CreateUserUseCase";
 
 class CreateUserController {
+  // eslint-disable-next-line prettier/prettier
   constructor(private createUserUseCase: CreateUserUseCase) { }
 
   handle(request: Request, response: Response): Response {

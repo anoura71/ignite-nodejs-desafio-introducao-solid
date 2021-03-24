@@ -4,6 +4,7 @@ import { User } from "modules/users/model/User";
 import { TurnUserAdminUseCase } from "./TurnUserAdminUseCase";
 
 class TurnUserAdminController {
+  // eslint-disable-next-line prettier/prettier
   constructor(private turnUserAdminUseCase: TurnUserAdminUseCase) { }
 
   handle(request: Request, response: Response): Response {
